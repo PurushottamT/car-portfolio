@@ -17,7 +17,7 @@ const HomePage = () => {
       />
       <CarSlider />
       <RentalProcess/>
-      <CarPromotion scrollIndex={'1'} background={'src/assets/images/1.jpg'} overlayDark={5} />
+      <CarPromotion />
     </>
   );
 };

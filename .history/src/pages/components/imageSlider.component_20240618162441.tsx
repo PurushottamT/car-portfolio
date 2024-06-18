@@ -18,7 +18,7 @@ const ImageSlider = ({ sliderProps }: { sliderProps: ImageSliderProps[] }) => {
   return (
     <>
       <div
-        className={`flex flex-col justify-center items-center bg-blend-darken relative overflow-x-hidden overflow-y-hidden h-[36rem]`}
+        className={`flex flex-col justify-center items-center bg-blend-darken relative overflow-x-hidden h-96`}
       >
         <img
           src={sliderProps[imageIndex].image[0]} // Assuming each sliderProps item has an array of images and we want the first one
@@ -26,7 +26,7 @@ const ImageSlider = ({ sliderProps }: { sliderProps: ImageSliderProps[] }) => {
           className={`w-1/2 rounded-lg`}
         />
         <div
-          className={`absolute p-3 flex justify-between items-center top-[80%] left-1/2 transform -translate-x-1/2 bg-gray-100 w-[45%] rounded-lg text-black space-x-5 text-md`}
+          className={`absolute p-3 flex justify-between items-center top-[90%] left-1/2 transform -translate-x-1/2 bg-gray-100 w-[45%] rounded-lg text-black space-x-5 text-md`}
         >
           <div className={`flex flex-col`}>
             <p className={`text-2xl font-bold`}>

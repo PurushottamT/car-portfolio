@@ -2,6 +2,7 @@ interface TitleBoxProps {
   title: string;
   text: string;
   rank?: number;
+  className?: string
 }
 
 const TextBox: React.FC<TitleBoxProps> = ({ title, text, rank }) => {
