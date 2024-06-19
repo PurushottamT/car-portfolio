@@ -5,13 +5,11 @@
 // }
 
 const CarPromotion: React.FC = () => {
-  return (
-    <>
-    <div className="mt-20">
-
-    </div>
-    </>
-  )
+    return (
+        <>
+            <div className="mt-20"></div>
+        </>
+    )
 }
 
 export default CarPromotion
