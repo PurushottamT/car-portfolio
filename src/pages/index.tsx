@@ -1,4 +1,5 @@
 import AboutSection from './components/about.component'
+import Blog from './components/blog.page.component'
 import CarPromotion from './components/carPromotion.component'
 import HomeBanner from './components/home.banner.component'
 import Rental from './components/rental.component'
@@ -24,6 +25,7 @@ const HomePage = () => {
                 overlayDark={5}
             />
             <Testimonial />
+            <Blog />
         </>
     )
 }

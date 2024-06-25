@@ -8,7 +8,7 @@ const RentalProcess: React.FC = () => {
                 <h3 className={`text-center text-sm text-customOrange`}>
                     Steps
                 </h3>
-                <h1 className={`text-center text-2xl`}>
+                <h1 className={`text-center text-2xl font-bold`}>
                     Car Rental{' '}
                     <span className={`text-customOrange`}>Process</span>
                 </h1>
