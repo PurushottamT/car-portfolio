@@ -9,7 +9,8 @@ const Testimonial = () => {
                     Testimonials
                 </h3>
                 <h1 className={`text-center text-2xl font-bold`}>
-                    What Client Says
+                    What <span className={`text-customOrange`}>Client</span>{' '}
+                    Says
                 </h1>
                 <Testimonials
                     clientName="Purushottam Tiwari"

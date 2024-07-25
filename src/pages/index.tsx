@@ -2,6 +2,7 @@ import AboutSection from './components/about.component'
 import Blog from './components/blog.page.component'
 import CarPromotion from './components/carPromotion.component'
 import HomeBanner from './components/home.banner.component'
+import InterestRent from './components/interest.rent.component'
 import Rental from './components/rental.component'
 // import RentalProcess from "./components/rentalProcess.component";
 import CarSlider from './components/slider.component'
@@ -26,6 +27,7 @@ const HomePage = () => {
             />
             <Testimonial />
             <Blog />
+            <InterestRent background={'src/assets/images/9.jpg'} />
         </>
     )
 }

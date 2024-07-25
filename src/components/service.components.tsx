@@ -1,16 +1,14 @@
 import { NavLink } from 'react-router-dom'
 
-interface blogType {
-    date: number
-    month: string
+interface serviceType {
+    list: number
     image: string
     title: string
     subTitle?: string
 }
 
-const BlogComponent: React.FC<blogType> = ({
-    date,
-    month,
+const ServiceComponent: React.FC<serviceType> = ({
+    list,
     image,
     title,
     subTitle,
@@ -32,24 +30,18 @@ const BlogComponent: React.FC<blogType> = ({
                 <div
                     className={`absolute bottom-0 left-0 h-[100px] w-[100px] rounded-tr-[45px] bg-white text-center leading-[100px]`}
                 >
-                    <NavLink
-                        to={'#'}
-                        className={`absolute bottom-4 left-4 right-4 top-4 rounded-full text-center text-white`}
-                    >
-                        <div
-                            className={`h-[70px] w-[70px] rounded-full border border-customOrange bg-customOrange text-sm leading-loose text-black`}
-                        >
-                            <i className={`align-bottom font-light`}>
-                                <span
-                                    className={`align-bottom text-xl font-semibold leading-4`}
+                     <NavLink
+                                    to={'#'}
+                                    className={`absolute bottom-4 left-4 right-4 top-4 rounded-full text-center text-white`}
                                 >
-                                    {date}
-                                </span>{' '}
-                                <br />
-                                <i>{month}</i>
-                            </i>
-                        </div>
-                    </NavLink>
+                                    <div
+                                        className={`h-[70px] w-[70px] rounded-full border border-customOrange bg-customOrange text-sm leading-loose text-black`}
+                                    >
+                                        <i
+                                            className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl text-black`}
+                                        >{list} </i>
+                                    </div>
+                                </NavLink>
                     <div
                         className={`shape-top-left absolute -left-[1px] -top-6 -rotate-90`}
                     >
@@ -85,4 +77,4 @@ const BlogComponent: React.FC<blogType> = ({
         </>
     )
 }
-export default BlogComponent
+export default ServiceComponent

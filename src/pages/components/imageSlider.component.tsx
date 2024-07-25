@@ -35,25 +35,33 @@ const ImageSlider = ({ sliderProps }: { sliderProps: ImageSliderProps[] }) => {
                         <div
                             className={`flex items-center justify-center space-x-10`}
                         >
-                            <div className={`flex items-center justify-center`}>
+                            <div
+                                className={`flex items-center justify-center space-x-2`}
+                            >
                                 <GiCarDoor
                                     className={`text-md text-customOrange`}
                                 />
                                 <p>{sliderProps[imageIndex].seats}</p>
                             </div>
-                            <div className={`flex items-center justify-center`}>
+                            <div
+                                className={`flex items-center justify-center space-x-2`}
+                            >
                                 <FaUser
                                     className={`text-md text-customOrange`}
                                 />
                                 <p>{sliderProps[imageIndex].age}</p>
                             </div>
-                            <div className={`flex items-center justify-center`}>
+                            <div
+                                className={`flex items-center justify-center space-x-2`}
+                            >
                                 <GiPaperBagOpen
                                     className={`text-md text-customOrange`}
                                 />
                                 <p>{sliderProps[imageIndex].bags}</p>
                             </div>
-                            <div className={`flex items-center justify-center`}>
+                            <div
+                                className={`flex items-center justify-center space-x-2`}
+                            >
                                 <TbCircuitBattery
                                     className={`text-md text-customOrange`}
                                 />
@@ -64,7 +72,7 @@ const ImageSlider = ({ sliderProps }: { sliderProps: ImageSliderProps[] }) => {
                     <div className={`flex items-center`}>
                         <button
                             className={
-                                'mr-3 rounded-full bg-customOrange px-6 py-3'
+                                'mr-3 rounded-full bg-customOrange px-6 py-3 text-white'
                             }
                         >
                             Detail

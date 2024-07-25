@@ -67,7 +67,9 @@ const Rental: React.FC<scrollProps> = ({
                 data-overlay-dark={overlayDark}
                 data-background={background}
             >
-                <div className={`container mx-auto w-4/5`}>
+                <div
+                    className={`container mx-auto w-4/5 brightness-100 filter`}
+                >
                     <div
                         className={`mt-10 flex flex-col items-center justify-center space-y-6`}
                     >
@@ -125,7 +127,7 @@ const Rental: React.FC<scrollProps> = ({
                                 className={`border p-1.5`}
                             />
 
-                            <button className="w-auto rounded-lg bg-customOrange px-5 py-2">
+                            <button className="w-auto rounded-lg bg-customOrange px-5 py-2 text-white">
                                 Rent
                             </button>
                         </div>

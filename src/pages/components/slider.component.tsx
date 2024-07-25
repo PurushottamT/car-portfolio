@@ -74,7 +74,7 @@ const CarSlider: React.FC = () => {
                     <span className={`text-customOrange`}>Car Fleet</span>
                 </h1>
             </div>
-            <div className="slider-container mt-20">
+            <div className="slider-container mt-10">
                 <ImageSlider
                     sliderProps={cars.map((car) => ({
                         ...car,
